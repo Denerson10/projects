@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<h3>Calculo de Gerações</h3>
+
+
+<script>
+anoatual = 2020
+anobase = 1500
+anospass = (anoatual - anobase)
+geracoes = (anospass / 28)
+function pulalinha() {
+    document.write("<br>")
+}
+function mostra(frase){
+    document.write(frase)
+    pulalinha();
+}
+document.write("Ja se passaram "+anospass+" anos")
+pulalinha()
+mostra("Ja se passaram "+geracoes+" gerações")
+</script>

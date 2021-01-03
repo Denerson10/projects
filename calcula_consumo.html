@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<h3> Alcool ou Gasolina?  </h3>
+<script>
+
+function pulaLinha() {
+    document.write("<br>")
+}
+
+function mostra(frase) {
+    document.write(frase)
+    pulaLinha();
+}
+var tanque = 40;
+var kmcomgasolina = 480;
+var kmcomalcool = 300;
+var consumogas = (kmcomgasolina/tanque)
+mostra("o consumo em gasolina foi:"+ consumogas+"km por litro!!");
+
+pulaLinha();
+
+consumoalcool = (kmcomalcool/tanque)
+mostra("o consumo em alcool foi :"+ consumoalcool+"km por litro!")
+
+</script>
