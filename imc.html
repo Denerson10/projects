@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+
+<script>
+function pulalinha(){
+    document.write("<br><hr><br>");
+}
+function mostra(frase){
+    document.write(frase);
+    pulalinha();
+}
+function calcula_imc(x, y){
+    imc = x / (y*y);
+    return imc;
+    
+}
+var peso = 90;
+var altura = 1.79
+var pesoAmigo = 120
+var alturaAmigo = 1.82
+var imc1 = calcula_imc(peso,altura);
+mostra("O IMC do Denerson é: "+imc);
+var imc2 = calcula_imc(pesoAmigo, alturaAmigo);
+mostra("O IMC do meu amigo é: "+imc)
+mostra("A soma dos IMC's é: "+(imc1+imc2))
+
+</script>
